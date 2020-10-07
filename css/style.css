@@ -1,0 +1,378 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+*:focus {
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: Helvetica Neue, Helvetica,Arial;
+	background: url("../images/bg.jpg") no-repeat center center fixed; 
+	background-size: cover;
+}
+
+header {
+	height: 60px;
+	display: flex;
+	background-color: #c73f2e;  
+
+}
+
+header div {
+	padding-top: 20px;
+}
+
+.company-logo {
+	padding-left: 20px;
+}
+
+.company-logo a {
+	display: flex;
+}
+
+.logo img {
+	position: relative;
+	top: -12px;
+	width: 45px;
+	height: 45px;
+	margin-right: 10px;
+}
+
+.navigation-top {
+	margin-left: auto;
+}
+
+header ul {
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding-right: 10px;
+	list-style-type: none;
+}
+
+header ul li {
+	width: 80px;
+	display: inline-block;
+}
+
+header ul li a:hover {
+	color: #FB6967;
+}
+
+section {
+	margin-top: 100px;
+	text-align: center;
+
+}
+
+section form {
+	margin: auto;
+	width: 320px;
+	height: 400px;
+	background: #00000099;
+
+}
+
+form div .avatar {
+	width: 100px;
+	margin-top: 50px;	
+	margin-bottom: 10px;
+	border-radius: 100%;
+}
+
+form div h3 {
+	margin-bottom: 15px;
+}
+
+form div input[type=text], input[type=password] {
+	height: 25px;
+	width: 250px;
+	padding: 2px;
+	font-size: 15px;
+	border-radius: 3px;
+	text-align: center;
+	border: 1px solid #fff;
+	background-color: transparent;
+}
+
+input[type=password], input[type=submit] {
+	margin-top: 7px;
+}
+
+input[type=submit] {
+	border: 0px;
+	height: 30px;
+	width: 256px;
+	font-weight: bold;
+	border-radius: 3px;
+	background-color: #a92b1c;
+}
+
+input[type=submit]:hover {
+	background: #BE0000;
+}
+
+
+.forgot-password {
+	margin-top: 20px;
+}
+
+/*Responsive Rules*/
+
+@media screen and (max-width: 503px) {
+
+	.logo img {
+		left: -5px;
+	}
+
+	header ul li {
+		width: 60px;
+	}
+}
+
+@media screen and (max-width: 492px) {
+
+	header {
+		text-align: center;
+		height: 70px;
+	}
+
+	header div {
+		padding-top: 15px;
+	}
+
+	.logo img {
+		position: relative;
+		top: -3px;
+		width: 45px;
+		height: 45px;
+	}
+
+	.logo h3 {
+		padding-top: 8px;
+	}
+
+	header ul li {
+		padding-bottom: 2px;
+		width: 80px;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 408px) {
+
+	header {
+		height: 90px;
+	}
+
+	.logo img {
+		position: relative;
+		top: 2px;
+		width: 55px;
+		height: 55px;
+	}
+
+	.navigation-top {
+		padding-top: 23px;
+	}
+
+	header ul li {
+		padding-bottom: 5px;
+		width: 80px;
+		display: block;
+	}
+
+}
+
+@media screen and (max-width: 346px) {
+
+	.logo img {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 330px) {
+
+	section form {
+		margin: auto;
+		width: 300px;
+	}
+
+
+}
+
+@media screen and (max-width: 305px) {
+
+	section form {
+		margin: auto;
+		width: 280px;
+	}
+
+}
+
+@media screen and (max-width: 290px) {
+
+	section form {
+		margin: auto;
+		width: 280px;
+	}
+
+}
+
+@media screen and (max-width: 285px) {
+
+	section form {
+		margin: auto;
+		width: 250px;
+	}
+
+	form div input {
+		height: 20px;
+		width: 200px;
+	}
+
+	input[type=submit] {
+		height: 30px;
+		width: 206px;
+	}
+
+}
+
+@media screen and (max-width: 281px) {
+
+	header {
+		height: 112px;
+	}
+
+	header ul {
+		padding-top: 10px;
+	}
+
+}
+
+@media screen and (max-width: 256px) {
+
+	section form {
+		margin: auto;
+		width: 230px;
+	}
+
+}
+
+@media screen and (max-width: 240px) {
+
+	section form {
+		margin: auto;
+		width: 210px;
+	}
+
+	form div input {
+		height: 20px;
+		width: 160px;
+	}
+
+	input[type=submit] {
+		height: 30px;
+		width: 166px;
+	}
+
+}
+
+@media screen and (max-width: 215px) {
+
+	section form {
+		margin: auto;
+		width: 190px;
+	}
+
+}
+
+@media screen and (max-width: 200px) {
+
+	section form {
+		margin: auto;
+		width: 170px;
+	}
+
+	form div input {
+		height: 20px;
+		width: 130px;
+	}
+
+	input[type=submit] {
+		height: 30px;
+		width: 136px;
+	}
+
+}
+
+@media screen and (max-width: 195px) {
+
+	header {
+		height: 130px;
+		display: block;
+	}
+
+	.company-logo {
+		padding-left: 0;
+	}
+
+	.logo h3 {
+		padding-top: 10px;
+	}
+
+	header ul li {
+		width: 70px;
+		display: inline-block;
+	}
+
+}
+
+@media screen and (max-width: 175px) {
+
+	section form {
+		margin: auto;
+		width: 150px;
+	}
+
+}
+
+@media screen and (max-width: 155px) {
+
+	section {
+		margin-top: 60px;
+	}
+
+	header {
+		height: 190px;
+		display: block;
+	}
+
+	section form {
+		margin: auto;
+		width: 130px;
+	}
+
+	form div input {
+		height: 20px;
+		width: 100px;
+	}
+
+	input[type=submit] {
+		height: 30px;
+		width: 106px;
+	}
+
+	.forgot-password {
+		font-size: 12px;
+	}
+
+}
